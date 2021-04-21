@@ -36,4 +36,5 @@ maintenances…).
    ![Capture6](https://user-images.githubusercontent.com/30577764/115560820-dcf43a80-a2ac-11eb-9e7e-eee17b2aab1c.PNG)
 
 ## License
-   
+   GNU V3.0
+   Otmane LAHRECHE
