@@ -28,3 +28,11 @@ maintenances…).
    * Firebase (Firebase cloud messaging for recommendations notification)
    * Postman (API test)
 
+## Scrin shots
+   ![Capture2](https://user-images.githubusercontent.com/30577764/115560660-b6ce9a80-a2ac-11eb-84bd-30f80aabc094.PNG)
+   ![Capture3](https://user-images.githubusercontent.com/30577764/115560704-bf26d580-a2ac-11eb-82a4-c0e0f626eb68.PNG)
+   ![Capture4](https://user-images.githubusercontent.com/30577764/115560743-c948d400-a2ac-11eb-85a3-47d5e8e5ad53.PNG)
+   ![Capture5](https://user-images.githubusercontent.com/30577764/115560784-d239a580-a2ac-11eb-81b4-91008dbe4215.PNG)
+   ![Capture6](https://user-images.githubusercontent.com/30577764/115560820-dcf43a80-a2ac-11eb-9e7e-eee17b2aab1c.PNG)
+
+
