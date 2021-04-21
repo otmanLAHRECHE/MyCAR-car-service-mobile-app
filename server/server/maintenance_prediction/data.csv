@@ -1,0 +1,3 @@
+EquipmentID,VehicleYear,Make,Model,VehicleType,VehicleMileage,MaintenanceType
+210,2020.0,toyota,yaris,car,20000.0,Oil Change
+210,2020.0,toyota,yaris,car,20000.0,Brake Job
