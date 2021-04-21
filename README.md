@@ -14,4 +14,9 @@ for the application of the algorithms of machine learning.
 maintenances…).
 
 ## Features 
+   * User authentication and email verification.
+   * Manage cars maintenance (verifications and reparations) and service centers.
+   * Notification of predictive car maintenance based on previous failure.
+   * Offline data syncronisation.
+   * Admin dashboard.
 
