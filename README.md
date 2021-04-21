@@ -1,4 +1,5 @@
-# car_service_book
+# My_CAR car service app
+
     This project is a mobile android app for following the car maintenance like
 the service book, and collecting data to predict the next maintenance from previous
 failures.
