@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227739752058",
+    "firebase_url": "https://mycar-esi-sba.firebaseio.com",
+    "project_id": "mycar-esi-sba",
+    "storage_bucket": "mycar-esi-sba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227739752058:android:36602e5f635e81c0c38dc3",
+        "android_client_info": {
+          "package_name": "co.example.hp.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227739752058-p0sht7mlbn0bl1oqretnhjfso1kapimm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3l9OGJL5viUdZhfoWysRUd41B8XI1f14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227739752058-p0sht7mlbn0bl1oqretnhjfso1kapimm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
