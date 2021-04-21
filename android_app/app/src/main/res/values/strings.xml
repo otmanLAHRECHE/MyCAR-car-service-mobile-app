@@ -1,0 +1,366 @@
+<resources>
+    <string name="app_name">MyCar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">register now!!!</string>
+    <string name="if_havent_compte">if you dont have a compte</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="registred">"you are registred"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >4 characters</string>
+    <string name="invalid_email">Not a valid email address</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">username</string>
+    <string name="submit">Submit</string>
+    <string name="logout">logout</string>
+    <string name="sync">sync</string>
+    <string name="action_settings">settings</string>
+    <string name="action_help">help</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Email</string>
+    <string name="register_text">create a new account to MyCAR</string>
+    <string name="title_activity_settings_global">SettingsGlobalActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    //////////////////////////////////////////////////////lang/////////////////////////////////////////////////////////
+
+
+    <string name="date_of_repare">date of reparation</string>
+    <string name="odometer">odometer</string>
+    <string name="service_center">service center</string>
+    <string name="Chose_Reparation_Type">Chose Reparation Type:</string>
+    <string name="engine">engine or mechanic</string>
+    <string name="clim">air conditioning</string>
+    <string name="suspension">suspension</string>
+    <string name="car_str">car structure and paint</string>
+    <string name="note_hint">tipe your notes here</string>
+    <string name="save_reparation">save reparation</string>
+
+
+    <string name="name_of_center">name of service center</string>
+    <string name="phone_number">phone number</string>
+    <string name="location">location</string>
+    <string name="save_service_center">save service center</string>
+
+    <string name="date_of_verif">date of verification</string>
+    <string name="Chose_services">Chose services(changes):</string>
+    <string name="Engine_oil">Engine oil</string>
+    <string name="type_of_oil">type of oil</string>
+    <string name="next_odometer">next odometer</string>
+    <string name="Oil_filter">Oil filter</string>
+    <string name="Air_filter">Air filter</string>
+    <string name="Cabine_filter">Cabin filter</string>
+    <string name="Brakes">Brakes</string>
+    <string name="Auto_transmission_oil">Auto transmission oil</string>
+    <string name="Lights_replace">Lights replace</string>
+    <string name="Wheel_alignment">Wheel alignment</string>
+    <string name="Battery_replace">Battery replace</string>
+    <string name="Tires_change">Tires change</string>
+    <string name="Fuel_filter_change">Fuel filter change</string>
+    <string name="Glass_change">Glass change</string>
+    <string name="Verify_the_balance">Verify the balance</string>
+    <string name="State_car">Car state:</string>
+    <string name="Engine_state">Engine state</string>
+    <string name="Lights_state">Lights state</string>
+    <string name="Tires_state">Tires_state</string>
+    <string name="Air_conditioning_state">Air conditioning state</string>
+    <string name="save_verification">save verification</string>
+
+
+    <string name="select_all">select all</string>
+    <string name="unselect_all">unselect all</string>
+
+
+    <string name="Please_wait">Please wait ...</string>
+    <string name="downloading_data">downloading data</string>
+
+    <string name="Sort_by">Sort by:</string>
+    <string name="Oldest">Oldest</string>
+    <string name="Newest">Newest</string>
+    <string name="Due_date">Due date:</string>
+    <string name="Before">Before</string>
+    <string name="After">After</string>
+    <string name="Between">Between</string>
+    <string name="start">start</string>
+    <string name="end">end</string>
+    <string name="Service_center_title">Service center:</string>
+    <string name="all_service_centers">all service centers</string>
+    <string name="Odometer_title">Odometer:</string>
+    <string name="Greater_than">Greater than</string>
+    <string name="Estimated">Estimated</string>
+    <string name="Less_than">Less than</string>
+    <string name="Reparation_type">Reparation type:</string>
+    <string name="Reset_all">Reset all</string>
+
+
+    <string name="Changes_selected">Changes selected:</string>
+    <string name="Oil_change">Oil change</string>
+
+    <string name="Welcome_to_MyCAR">Welcome to MyCAR </string>
+    <string name="Login">Login</string>
+
+
+    <string name="Current_password">Current password :</string>
+    <string name="All_new_password">All new password :</string>
+
+
+    <string name="Firstname">Firstname</string>
+    <string name="Lastname">Lastname</string>
+    <string name="Email">Email</string>
+
+
+    <string name="Firstname_edit">Firstname :</string>
+    <string name="Lastname_edit">Lastname :</string>
+    <string name="Email_edit">Email :</string>
+
+
+    <string name="no_connection_to_the_server">no connection to the server</string>
+    <string name="in_order_online">in order to get advises and recommendations you need to be online</string>
+
+
+    <string name="No_recommendations_yet">No recommendations yet</string>
+
+
+    <string name="Register_to_MyCAR">Register to MyCAR</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+
+
+    <string name="date_details">date :</string>
+    <string name="odometer_details">odometer :</string>
+    <string name="service_center_details">service center :</string>
+
+    <string name="Service_center_details">Service center details</string>
+    <string name="center_name_details">center name :</string>
+    <string name="phone_number_details">phone number :</string>
+    <string name="location_details">location :</string>
+
+
+    <string name="Distance_states">Distance states:</string>
+    <string name="global_distance">global distance:</string>
+    <string name="avg_between_verification">avg between verification:</string>
+    <string name="avg_between_reparation">avg between reparation:</string>
+    <string name="Maintenance_states">Maintenance states:</string>
+    <string name="verifications">verifications:</string>
+    <string name="reparations">reparations:</string>
+    <string name="avg_verification_in_year">avg verification in year:</string>
+    <string name="avg_reparation_in_year">avg reparation in year:</string>
+
+
+    <string name="Sync_services">Sync your data for better services</string>
+    <string name="Auto_data">Auto sync data:</string>
+
+
+    <string name="Edit_car_info">Edit car info</string>
+    <string name="Car_type">car type:</string>
+
+
+    <string name="Verification_details">Verification details</string>
+    <string name="states_recorded">states recorded:</string>
+
+
+    <string name="Enter_the_car">Enter the car informations</string>
+    <string name="company">company</string>
+    <string name="car_model">car model</string>
+    <string name="serial">serial(Ex: f1245r58799)</string>
+    <string name="registration_number">registration number</string>
+    <string name="car_year">car year</string>
+    <string name="add_car">Add Car</string>
+
+
+    <string name="add_service_center">Add Service Center</string>
+    <string name="OBD_Scan_random_car">OBD Scan Random Car</string>
+
+    <string name="There_is_no_car">There is no car</string>
+
+
+    <string name="cars_tab">Cars</string>
+    <string name="service_centers_tab">Service Centers</string>
+    <string name="There_is_no_reparations_yet">There is no reparations yet</string>
+
+
+    <string name="Global_information_and_status">Global information and status</string>
+    <string name="Last_Verification">Last Verification</string>
+    <string name="Engine_Oil_Remainder">Engine Oil Remainder</string>
+    <string name="next_odometer_details">Next odometer :</string>
+
+
+    <string name="add_verification">add verification</string>
+    <string name="add_reparation">add reparation</string>
+
+
+    <string name="more_about_app">more about app</string>
+    <string name="Sync_data">Sync data</string>
+    <string name="Settings">Settings</string>
+    <string name="Contact_us">Contact us</string>
+
+
+    <string name="Cars">Cars</string>
+    <string name="ServiceCenter">Service center</string>
+    <string name="verification_details">Verifications:</string>
+    <string name="reparation_details">Reparations:</string>
+    <string name="States_details">States details :</string>
+    <string name="Distance_states_all_cars">Distance states: (all cars)</string>
+    <string name="Maintenance_states_all_cars">Maintenance states: (all cars)</string>
+    <string name="avg_verification_per_car">avg verification per car:</string>
+    <string name="avg_reparation_per_car">avg reparation per car:</string>
+
+
+    <string name="There_is_no_service_center">There is no service center</string>
+
+
+    <string name="Your_car">Your car</string>
+    <string name="company_details">company:</string>
+    <string name="model_details">model:</string>
+    <string name="serial_details">serial:</string>
+    <string name="registration_number_details">registration number:</string>
+    <string name="car_year_details">car year:</string>
+    <string name="car_type_details">car type:</string>
+    <string name="update_car">update car</string>
+    <string name="delete_the_car">delete the car</string>
+
+
+    <string name="There_is_no_verifications_yet">There is no verifications yet</string>
+
+
+    <string name="Report">Report</string>
+    <string name="Recommend">Recommend</string>
+    <string name="More">More</string>
+
+
+    <string name="home">home</string>
+    <string name="vehicle">vehicle</string>
+
+
+    <string name="apply">APPLY</string>
+
+
+    <string name="edit">Edit</string>
+    <string name="change_password">Change password</string>
+    <string name="log_out">Log out</string>
+
+
+    <string name="Save_battery">Save battery</string>
+    <string name="do_not">do not sync data when battery is low</string>
+    <string name="Oil_change_reminder">Oil change reminder</string>
+    <string name="Sync_reminder">Sync reminder</string>
+    <string name="Change_language">Change language</string>
+    <string name="About_the_app">About the app</string>
+    <string name="more">more</string>
+    <string name="know_more">know more about our app</string>
+
+
+    <string name="recommendation_last">Last Recommendation</string>
+
+    <string name="see_all">see all</string>
+
+    <string name="question">You have question or you need help?</string>
+    <string name="question1">what is recommendation?</string>
+    <string name="question2">can i trust it?</string>
+    <string name="help">help</string>
+
+    <string name="recommendation_engine_oil">you need to check the engine oil or change it</string>
+    <string name="recommendation_battery">check the battery state</string>
+    <string name="recommendation_brake">check the brakes state</string>
+    <string name="recommendation_lights">check the lights state</string>
+    <string name="recommendation_tires">check the tires state or change them</string>
+    <string name="recommendation_auto_trans">check the transmission group state and the oil state</string>
+    <string name="recommendation_wheels_align">check the wheels alignment</string>
+    <string name="recommendation_mount_balance">check the mount and balance of the car</string>
+
+
+    <string name="welcome_speech">We help you follow your car state and keep it always protected and in check</string>
+
+    <string name="Last_Reparation">Last Reparation</string>
+
+
+    <string name="Update_service_center">Update service center</string>
+    <string name="Chose_service_center">Chose service centerr</string>
+    <string name="Add_service_center">Add service center</string>
+    <string name="Update_car">Update car</string>
+    <string name="Add_verification">Add verification</string>
+    <string name="Add_car">Add car</string>
+    <string name="Change_password">Change password</string>
+    <string name="Update_verification">Update verification</string>
+    <string name="Update_reparation">Update reparation</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="recommendation_notification">New maintenance recommendation arrived</string>
+
+    <string name="recommendation_notification_body">Enter and check the maintenance recommended</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="notification_body_byuing">Enter and validate buying request</string>
+    <string name="notification_title_byuing">Request buying a car</string>
+
+
+    <string name="Selling_car" >Selling car</string>
+    <string name="Buying_car" >Buying car</string>
+
+    <string name="MyCAR_Trade" >MyCAR Trade</string>
+
+
+    <string name="buying" >buying</string>
+
+    <string name="selling" >selling</string>
+
+    <string name="Buying" >Buying</string>
+
+    <string name="Selling" >Selling</string>
+
+    <string name="MyCAR_trade_history" >MyCAR trade history:</string>
+
+    <string name="What_is_MyCAR_Trade" >What is MyCAR Trade ?</string>
+
+    <string name="What_is_MyCAR_Trade_why" >      MyCAR trade is a feature in our app that when you want to buy or sell a car, you can keep its maintenance information with it.</string>
+
+    <string name="Chose_the_car" >Chose the car you want to sell:</string>
+
+    <string name="Enter_the_buyer_key" >Enter the buyer key/code:</string>
+    <string name="validate" >Validate</string>
+    <string name="Cancel" >Cancel</string>
+
+
+    <string name="Generating_Code" >Generating Code</string>
+
+    <string name="Your_buying_Code" >Your buying Code:</string>
+    <string name="Send_this_key" >Send this key to the user that you want to buy the car from him</string>
+    <string name="wait_for" >wait for server ...</string>
+
+    <string name="Syncing_data" >Syncing data</string>
+
+    <string name="Cars_main" >Cars</string>
+    <string name="Service_Centers_main" >Service Centers</string>
+
+
+
+</resources>

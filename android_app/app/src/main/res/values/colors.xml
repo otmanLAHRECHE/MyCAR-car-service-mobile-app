@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A5FF</color>
+    <color name="colorPrimaryDark">#2192d9</color>
+    <color name="colorAccent">#00D9FF</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="white_dark">#A9FFFFFF</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="green">#0f6c0d</color>
+    <color name="red">#c8ea6e6e</color>
+    <color name="buttons">#07d3ed</color>
+    <color name="hcolor">#3e7981</color>
+    <color name="textcolor">#49595b</color>
+    <color name="dash1">#5E5E5E</color>
+    <color name="dis1">#878787</color>
+    <color name="view1">#FF5454</color>
+    <color name="oilRemainder">#d4595d</color>
+    <color name="blacksemitrans">#e8000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="halfblack">#808080</color>
+    <color name="white2">#fafafa</color>
+    <color name="whitepressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="primerypressed">#a2056787</color>
+    <color name="bluesemitrans">#805677fc</color>
+    <color name="bluesemitranspressed">#80738ffe</color>
+
+
+
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="secondTextColor">#06359b</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+    <color name="colorPrimaryTextDefaultMaterialLight">#DE000000</color>
+    <color name="colorSecondaryTextDefaultMaterialLight">#8A000000</color>
+
+    <color name="colorPrimaryTextDefaultMaterialDark">#FFFFFFFF</color>
+    <color name="colorSecondaryTextDefaultMaterialDark">#B3FFFFFF</color>
+
+
+    <color name="view2">#204d60</color>
+
+    <color name="whiteBodyColor">#FCFCFC</color>
+
+    <color name="contentTextColor">#020000</color>
+
+
+    <color name="number_cars">#2c6a84</color>
+    <color name="number_verifications">#49b66a</color>
+    <color name="number_reparations">#cc3b36</color>
+
+
+    <color name="colorPrimary_light">#74ADEA</color>
+
+
+
+
+
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+
+
+
+    <color name="green_prime">#2FE30E</color>
+    <color name="yellow">#21BAD5</color>
+
+
+</resources>
