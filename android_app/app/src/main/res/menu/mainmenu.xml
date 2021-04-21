@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_service_book"
+        android:icon="@drawable/addwhite"
+        android:title="Help"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/settings_white"
+        android:title="Help"
+        app:showAsAction="ifRoom" />
+
+</menu>

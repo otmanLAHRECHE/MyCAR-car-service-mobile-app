@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service centers"
+                android:textSize="22dp"
+                android:textColor="@color/dash1"
+                android:fontFamily="@font/robotobold"
+                />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="8dp"
+                android:background="@drawable/bg_view"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center">
+
+
+            </View>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/lv_service_centers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addservicecenterforlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:fab_colorNormal="@color/colorPrimary"
+        app:fab_colorPressed="@color/primerypressed"
+        android:src="@drawable/addwhite"/>
+
+</RelativeLayout>

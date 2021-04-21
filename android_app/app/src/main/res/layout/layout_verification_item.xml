@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <!-- the circular icon on the left -->
+
+
+        <!-- the blue line -->
+        <FrameLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:id="@+id/item_line"
+            android:background="@drawable/profile_bk">
+
+            <!-- the semi transparent circle on the line -->
+            <View
+                android:layout_marginTop="18dp"
+                android:layout_width="11dp"
+                android:layout_height="2dp"
+                android:background="@color/white"/>
+
+        </FrameLayout>
+
+        <!-- views at the right of the blue line -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingBottom="15dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/date_verf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="Wed,27 Sept 2020"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/robotobold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/servicecenterwhere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="service center : GM groupe"
+                android:fontFamily="@font/robotomedium"/>
+
+            <TextView
+                android:id="@+id/item_verification_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="oil change / air filter"
+                android:fontFamily="@font/robotocondenseditalic"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/odometerverif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="20000.00"
+                    android:layout_marginRight="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="km"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+
+            <!-- other views -->
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/there_is_no_service_center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/There_is_no_service_center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/there_is_service_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/lv_service_centers_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

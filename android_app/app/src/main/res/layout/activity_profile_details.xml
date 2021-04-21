@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Profile_details">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/user_profile_icon_second"/>
+
+                <TextView
+                    android:id="@+id/first_name_header_details"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="28dp"
+                    android:fontFamily="@font/robotobold"
+                    android:text="First name"/>
+
+
+
+
+            </LinearLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <RelativeLayout style="@style/profileDetailsLayout">
+                    <ImageView
+                        android:id="@+id/nameImageView"
+                        style="@style/profileDetailsImage" />
+
+                    <TextView
+                        android:id="@+id/nameTextView"
+                        android:text="@string/Firstname"
+                        android:fontFamily="@font/robotobold"
+                        android:layout_toRightOf="@id/nameImageView"
+                        style="@style/profileDetailsTextMain" />
+
+                    <TextView
+                        android:id="@+id/first_name_details"
+                        android:text="fn"
+                        android:layout_toRightOf="@id/nameImageView"
+                        style="@style/profileDetailsMiniText" />
+
+                </RelativeLayout>
+
+                <View style="@style/proifleDetailsView" />
+                <RelativeLayout style="@style/profileDetailsLayout">
+                    <ImageView
+                        android:id="@+id/mobileImageView"
+                        style="@style/profileDetailsImage" />
+
+                    <TextView
+                        android:text="@string/Lastname"
+                        android:fontFamily="@font/robotobold"
+                        android:layout_toRightOf="@id/mobileImageView"
+                        style="@style/profileDetailsTextMain"/>
+
+                    <TextView
+                        android:id="@+id/last_name_details"
+                        android:text="ln"
+                        android:layout_toRightOf="@id/mobileImageView"
+                        style="@style/profileDetailsMiniText" />
+
+                </RelativeLayout>
+
+                <View style="@style/proifleDetailsView" />
+                <RelativeLayout style="@style/profileDetailsLayout">
+                    <ImageView
+                        android:id="@+id/emailImageView"
+                        style="@style/profileDetailsImage" />
+
+                    <TextView
+                        android:text="@string/Email"
+                        android:fontFamily="@font/robotobold"
+                        android:layout_toRightOf="@id/emailImageView"
+                        style="@style/profileDetailsTextMain" />
+
+                    <TextView
+                        android:id="@+id/email_details"
+                        android:text="developer@appsnipp.com"
+                        android:layout_toRightOf="@id/emailImageView"
+                        style="@style/profileDetailsMiniText" />
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

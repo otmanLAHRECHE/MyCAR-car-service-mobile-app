@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dashboard"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_report"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_data_usage_24"
+        android:title="@string/Report"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:enabled="false"
+        tools:ignore="MenuTitle"/>
+    <item
+        android:id="@+id/action_sync"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_recommendation_24"
+        android:title="@string/Recommend"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_more_options"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="@string/More"
+        app:showAsAction="ifRoom"/>
+
+</menu>

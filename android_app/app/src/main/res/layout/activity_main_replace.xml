@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityReplace"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="blocksDescendants">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="8dp"
+            android:background="@drawable/bg_view"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registred CARs"
+            android:textSize="22dp"
+            android:textColor="@color/dash1"
+            android:fontFamily="@font/robotobold"
+            />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="8dp"
+            android:background="@drawable/bg_view"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center">
+
+
+        </View>
+
+
+
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/GL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:padding="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+</LinearLayout>

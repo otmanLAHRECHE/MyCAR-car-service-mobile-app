@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/home" android:title="@string/home" android:icon="@drawable/home"/>
+    <item android:id="@+id/vehicle" android:title="@string/vehicle" android:icon="@drawable/vehicle"/>
+    <item android:id="@+id/verification" android:title="verification" android:icon="@drawable/verification"/>
+    <item android:id="@+id/reparation" android:title="reparation" android:icon="@drawable/reparation"/>
+    <item android:id="@+id/exit" android:title="exit" android:icon="@drawable/exit"/>
+    </group>
+</menu>

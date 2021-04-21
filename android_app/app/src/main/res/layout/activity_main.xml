@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_marginBottom="?actionBarSize">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                            <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:id="@+id/relLayoutTopBar"
+                                    android:layout_alignParentTop="true">
+
+                                        <androidx.appcompat.widget.Toolbar
+
+                                            android:id="@+id/toolbar_mainact"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="4dp"
+                                            android:layout_marginBottom="2dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:layout_marginRight="4dp"
+                                            app:theme="@style/CustomActionBar"
+                                            android:elevation="2dp"
+                                            android:minHeight="?attr/actionBarSize"
+                                            android:theme="?attr/actionBarTheme"
+                                            android:background="@drawable/white_grey_border_bottom">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="My"
+                                                    android:textColor="@color/primaryTextColor"
+                                                    android:textSize="20sp"
+                                                    android:fontFamily="@font/robotobold"/>
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="CAR"
+                                                    android:textColor="@color/secondTextColor"
+                                                    android:textSize="20sp"
+                                                    android:fontFamily="@font/robotobold"/>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:gravity="right"
+                                                    android:layout_marginRight="15dp">
+
+
+                                                </LinearLayout>
+
+
+
+                                            </LinearLayout>
+
+
+                                    </androidx.appcompat.widget.Toolbar>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintBottom_toTopOf="@+id/customBottomBar"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/relLayoutTopBar">
+
+                            <include
+                                layout="@layout/content_main"/>
+
+                            </RelativeLayout>
+
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/customBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.BottomNavigationView"
+        android:elevation="4dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_main_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addwhite"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorPrimary"
+        android:elevation="10dp"
+        android:layout_above="@id/customBottomBar"
+        app:layout_anchor="@id/customBottomBar"
+        app:layout_anchorGravity="center"
+        android:layout_marginBottom="15dp"
+        app:fabSize="normal"
+        app:elevation="8dp"
+        app:borderWidth="0dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
