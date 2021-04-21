@@ -19,4 +19,12 @@ maintenances…).
    * Notification of predictive car maintenance based on previous failure.
    * Offline data syncronisation.
    * Admin dashboard.
+   
+## Requirements and tools
+   * Android Studio (mobile app development)
+   * Django (server and RestAPI development)
+   * MySQL Workbansh (server database)
+   * SQLite (mobile app local database)
+   * Firebase (Firebase cloud messaging for recommendations notification)
+   * Postman (API test)
 
