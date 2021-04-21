@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">MyCar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">register now!!!</string>
+    <string name="if_havent_compte">if you dont have a compte</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="registred">"you are registred"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >4 characters</string>
+    <string name="invalid_email">Not a valid email address</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">username</string>
+    <string name="submit">Submit</string>
+    <string name="logout">logout</string>
+    <string name="sync">sync</string>
+    <string name="action_settings">settings</string>
+    <string name="action_help">help</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Email</string>
+    <string name="register_text">create a new account to MyCAR</string>
+    <string name="title_activity_settings_global">SettingsGlobalActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+
+    <string name="date_of_repare">date de réparation</string>
+    <string name="odometer">odomètre</string>
+    <string name="service_center">centre de services</string>
+    <string name="Chose_Reparation_Type">Choisissez le type de réparation:</string>
+    <string name="engine">moteur ou mécanic</string>
+    <string name="clim">climatisation</string>
+    <string name="suspension">suspension</string>
+    <string name="car_str">structure et peinture de la voiture</string>
+    <string name="note_hint">tapez vos notes ici</string>
+    <string name="save_reparation">sauvgarder la réparation</string>
+
+
+    <string name="name_of_center">
+nom du centre de service</string>
+    <string name="phone_number">phone number</string>
+    <string name="location">location</string>
+    <string name="save_service_center">sauvgarder centre de service</string>
+
+    <string name="date_of_verif">date de verification</string>
+    <string name="Chose_services">Choisissez les services (changements):</string>
+    <string name="Engine_oil">Huile moteur</string>
+    <string name="type_of_oil">type de huile</string>
+    <string name="next_odometer">odomètre suivant</string>
+    <string name="Oil_filter">Filtre à huile</string>
+    <string name="Air_filter">Filtre à air</string>
+    <string name="Cabine_filter">Cabine filter</string>
+    <string name="Brakes">Freins</string>
+    <string name="Auto_transmission_oil">Huile de transmission</string>
+    <string name="Lights_replace">Les lumières remplacent</string>
+    <string name="Wheel_alignment">Alignement des roues</string>
+    <string name="Battery_replace">Remplacement de la batterie</string>
+    <string name="Tires_change">Changement de pneus</string>
+    <string name="Fuel_filter_change">Changement du filtre à carburant</string>
+    <string name="Glass_change">Changement de verre</string>
+    <string name="Verify_the_balance">Vérifiez l équilibre</string>
+    <string name="State_car">État de la voiture:</string>
+    <string name="Engine_state">État du moteur</string>
+    <string name="Lights_state">État des lumières</string>
+    <string name="Tires_state">État des pneus</string>
+    <string name="Air_conditioning_state">État de la climatisation</string>
+    <string name="save_verification">sauvgarder la verification</string>
+
+
+    <string name="select_all">tout sélectionner</string>
+    <string name="unselect_all">tout déselectionner</string>
+
+
+    <string name="Please_wait">S il vous plaît, attendre ...</string>
+    <string name="downloading_data">
+téléchargement de données</string>
+
+    <string name="Sort_by">Trier par:</string>
+    <string name="Oldest">Plus ancien</string>
+    <string name="Newest">
+Plus récent</string>
+    <string name="Due_date">Par date:</string>
+    <string name="Before">Avant</string>
+    <string name="After">Après</string>
+    <string name="Between">Entre</string>
+    <string name="start">début</string>
+    <string name="end">fin</string>
+    <string name="Service_center_title">Centre de services:</string>
+    <string name="all_service_centers">tous les centres de service</string>
+    <string name="Odometer_title">Odomètre:</string>
+    <string name="Greater_than">
+Plus grand que</string>
+    <string name="Estimated">Estimé</string>
+    <string name="Less_than">Moins que</string>
+    <string name="Reparation_type">Type de réparation:</string>
+    <string name="Reset_all">Réinitialiser</string>
+
+
+
+    <string name="Changes_selected">Modifications sélectionnées:</string>
+    <string name="Oil_change">Vidange</string>
+
+    <string name="Welcome_to_MyCAR">Bienvenue sur MyCAR </string>
+    <string name="Login">Identifier</string>
+
+
+
+    <string name="Current_password">Mot de passe actuel :</string>
+    <string name="All_new_password">Nouveau mot de passe :</string>
+
+
+
+    <string name="Firstname">Prénom</string>
+    <string name="Lastname">Nom de famille</string>
+    <string name="Email">Email</string>
+
+
+
+    <string name="Firstname_edit">Prénom :</string>
+    <string name="Lastname_edit">Nom de famille :</string>
+    <string name="Email_edit">Email :</string>
+
+
+
+
+    <string name="no_connection_to_the_server">Pas de connexion au serveur</string>
+    <string name="in_order_online">pour obtenir des conseils et des recommandations, vous devez être en ligne</string>
+
+
+    <string name="No_recommendations_yet">Aucune recommandation pour le moment</string>
+
+
+    <string name="Register_to_MyCAR">Inscrivez-vous à MyCAR</string>
+    <string name="first_name">prénom</string>
+    <string name="last_name">nom de famille</string>
+    <string name="email">email</string>
+    <string name="password">mot de passe</string>
+
+
+
+    <string name="date_details">date :</string>
+    <string name="odometer_details">odomètre :</string>
+    <string name="service_center_details">centre de services :</string>
+
+    <string name="Service_center_details">Détails du centre de service</string>
+    <string name="center_name_details">nom du centre :</string>
+    <string name="phone_number_details">num téléphone :</string>
+    <string name="location_details">location :</string>
+
+
+    <string name="Distance_states">États de distance:</string>
+    <string name="global_distance">distance globale:</string>
+    <string name="avg_between_verification">moy entre vérification:</string>
+    <string name="avg_between_reparation">moy entre réparation:</string>
+    <string name="Maintenance_states">États de maintenance:</string>
+    <string name="verifications">vérifications:</string>
+    <string name="reparations">réparations:</string>
+    <string name="avg_verification_in_year">vérification moyenne dans année:</string>
+    <string name="avg_reparation_in_year">réparation moyenne dans année:</string>
+
+
+
+
+    <string name="Sync_services">Synchronisez vos données pour de meilleurs services</string>
+    <string name="Auto_data">Sync automatique des données:</string>
+
+
+    <string name="Edit_car_info">Modifier les informations sur la voiture</string>
+    <string name="Car_type">type de voiture:</string>
+
+
+
+    <string name="Verification_details">Détails de vérification</string>
+    <string name="states_recorded">états enregistrés:</string>
+
+
+    <string name="Enter_the_car">Entrez les informations de la voiture</string>
+    <string name="company">compagnie</string>
+    <string name="car_model">modèle de voiture</string>
+    <string name="serial">en série(Ex: f1245r58799)</string>
+    <string name="registration_number">numéro de enregistrement</string>
+    <string name="car_year">année de voiture</string>
+    <string name="add_car">
+Ajouter voiture</string>
+
+
+
+    <string name="add_service_center">Ajouter centre de service</string>
+    <string name="OBD_Scan_random_car">OBD Scan Voiture aléatoire</string>
+
+    <string name="There_is_no_car">
+Il n y a pas de voiture</string>
+
+
+    <string name="cars_tab">Voitures</string>
+    <string name="service_centers_tab">Centres</string>
+    <string name="There_is_no_reparations_yet">Il n y a pas de réparationst</string>
+
+
+    <string name="Global_information_and_status">Informations globales et statut</string>
+    <string name="Last_Verification">Dernière vérific..</string>
+    <string name="Engine_Oil_Remainder">Reste de huile moteur</string>
+    <string name="next_odometer_details">Odomètre suivant :</string>
+
+
+
+    <string name="add_verification">ajouter vérification</string>
+    <string name="add_reparation">ajouter réparation</string>
+
+
+
+    <string name="more_about_app">
+en savoir plus sur l"application</string>
+    <string name="Sync_data">Sync les données</string>
+    <string name="Settings">Paramètres</string>
+    <string name="Contact_us">contacter nous</string>
+
+
+
+
+    <string name="Cars">Voitures</string>
+    <string name="ServiceCenter">Centres</string>
+    <string name="verification_details">Vérifications:</string>
+    <string name="reparation_details">Réparations:</string>
+    <string name="States_details">Détails des Statistiques :</string>
+    <string name="Distance_states_all_cars">Distance statistiques: (Toutes les voitures)</string>
+    <string name="Maintenance_states_all_cars">Maintenance statistiques: (Toutes les voitures)</string>
+    <string name="avg_verification_per_car">vérification moyenne par voiture:</string>
+    <string name="avg_reparation_per_car">réparation moyenne par voiture:</string>
+
+
+    <string name="There_is_no_service_center">Il n"y a pas de centre de service</string>
+
+
+    <string name="Your_car">Votre voiture</string>
+    <string name="company_details">compagnie:</string>
+    <string name="model_details">modèle:</string>
+    <string name="serial_details">num série:</string>
+    <string name="registration_number_details">numéro d"enregistrement:</string>
+    <string name="car_year_details">année de voiture:</string>
+    <string name="car_type_details">type de voiture:</string>
+    <string name="update_car">mettre à jour la voiture</string>
+    <string name="delete_the_car">supprimer la voiture</string>
+
+
+    <string name="There_is_no_verifications_yet">Il n"y a pas encore de vérifications</string>
+
+
+
+    <string name="Report">Rapport</string>
+    <string name="Recommend">Recommend</string>
+    <string name="More">Plus</string>
+
+
+    <string name="home">accueil</string>
+    <string name="vehicle">véhicule</string>
+
+
+
+    <string name="apply">APPLIQUER</string>
+
+
+    <string name="edit">Éditer</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="log_out">Se déconnecter</string>
+
+
+    <string name="Save_battery">Économisez la batterie</string>
+    <string name="do_not">ne synchronisez pas les données lorsque la batterie est faible</string>
+    <string name="Oil_change_reminder">Rappel de changement d"huile</string>
+    <string name="Sync_reminder">Rappel de synchronisation</string>
+    <string name="Change_language">Changer de langue</string>
+    <string name="About_the_app">À propos de l"application</string>
+    <string name="more">plus</string>
+    <string name="know_more">en savoir plus sur notre application</string>
+
+
+
+    <string name="recommendation_last">Dernière recommandation</string>
+
+    <string name="see_all">voir tout</string>
+
+    <string name="question">Vous avez une question ou vous avez besoin d"aide?</string>
+    <string name="question1">qu"est-ce que la recommandation?</string>
+    <string name="question2">puis-je lui faire confiance?</string>
+    <string name="help">aide</string>
+
+    <string name="recommendation_engine_oil">vous devez vérifier l"huile moteur ou la changer</string>
+    <string name="recommendation_battery">vérifier l"état de la batterie</string>
+    <string name="recommendation_brake">vérifier l"état des freins</string>
+    <string name="recommendation_lights">vérifier l"état des lumières</string>
+    <string name="recommendation_tires">vérifier l"état des pneus ou les changer</string>
+    <string name="recommendation_auto_trans">vérifier l"état du groupe de transmission et l"état de l"huile</string>
+    <string name="recommendation_wheels_align">vérifier l"alignement des roues</string>
+    <string name="recommendation_mount_balance">vérifier le montage et l"équilibre de la voiture</string>
+
+
+
+    <string name="welcome_speech">Nous vous aidons à suivre l"état de votre voiture et à la garder toujours protégée et sous contrôle</string>
+
+    <string name="Last_Reparation">Dernière répar..</string>
+
+
+
+
+    <string name="Update_service_center">Mettre à jour le centre de service</string>
+    <string name="Chose_service_center">Choisissez le centre de service</string>
+    <string name="Add_service_center">Ajouter centre de service</string>
+    <string name="Update_car">Mettre à jour la voiture</string>
+    <string name="Add_verification">Ajouter vérification</string>
+    <string name="Add_car">Ajouter voiture</string>
+    <string name="Change_password">Changer le mot de passe</string>
+    <string name="Update_verification">Mettre à jour la vérification</string>
+    <string name="Update_reparation">Mettre à jour la réparation</string>
+
+
+
+    <string name="recommendation_notification">nouvelle recommandation de maintenance est arrivée</string>
+
+    <string name="recommendation_notification_body">Entrez et vérifiez l"entretien recommandé</string>
+
+
+
+
+    <string name="notification_body_byuing">Enter and validate buying request</string>
+
+    <string name="notification_title_byuing">Demander l"achat d"une voiture</string>
+
+
+
+    <string name="Selling_car" >Vente de voiture</string>
+
+    <string name="Buying_car" >Acheter une voiture</string>
+
+    <string name="MyCAR_Trade" >MyCAR Trade</string>
+
+
+    <string name="buying" >achat</string>
+
+    <string name="selling" >vente</string>
+
+    <string name="Buying" >Achat</string>
+
+    <string name="Selling" >Vente</string>
+
+    <string name="MyCAR_trade_history" >Historique du MyCAR Trade:</string>
+
+    <string name="What_is_MyCAR_Trade" >Qu est-ce que MyCAR Trade?</string>
+
+    <string name="What_is_MyCAR_Trade_why" >      MyCAR trade est une fonctionnalité de notre application qui vous permet de conserver ses informations de maintenance lorsque vous souhaitez acheter ou vendre une voiture.</string>
+
+    <string name="Chose_the_car" >Chose the car you want to sell:</string>
+
+    <string name="Enter_the_buyer_key" >
+Entrez la clé de l acheteur:</string>
+    <string name="validate" >Valider</string>
+    <string name="Cancel" >Annuler</string>
+
+
+    <string name="Generating_Code" >Générer du code/clé</string>
+
+    <string name="Your_buying_Code" >Votre code/clé d achat:</string>
+    <string name="Send_this_key" >Envoyez cette clé à l utilisateur à qui vous souhaitez acheter la voiture</string>
+    <string name="wait_for" >attendre le serveur ...</string>
+
+    <string name="Syncing_data" >Synchroniser les données</string>
+
+
+
+
+    <string name="Cars_main">Voitures</string>
+    <string name="Service_Centers_main" >Centres</string>
+
+
+</resources>

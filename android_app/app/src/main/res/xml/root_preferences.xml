@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="Sync Information"
+        android:key="sync_category">
+
+        <CheckBoxPreference
+            android:key="Save_battery"
+            android:summary="@string/do_not"
+            android:title="@string/Save_battery"
+            android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notifications"
+        android:key="notifications">
+
+
+        <SwitchPreference
+            android:key="oil_change_reminder"
+            android:title="@string/Oil_change_reminder"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="sync_reminder"
+            android:title="@string/Sync_reminder"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/more"
+        android:key="more">
+
+        <Preference
+            android:key="about_app"
+            android:title="@string/About_the_app"
+            android:summary="@string/know_more"
+            android:dialogTitle="Notification Ringtone"
+            android:dialogMessage="Customise Notification Ringtone for you"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
